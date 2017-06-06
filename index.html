@@ -1,0 +1,709 @@
+<!doctype html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Proyecto final.</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <!--grupo CSS-->
+   <link rel="stylesheet" href="css/app10.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo JavaScript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+   <script src="phonegap.js"></script>
+   <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine4/style.css" />
+<script type="text/javascript" src="engine4/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<body onLoad="MM_preloadImages('imagenes/images (4).jpg','imagenes/uniddd.png','imagenes/abogadaa.jpg','imagenes/derecho.jpg','imagenes/ueep2.jpg','imagenes/abogada.jpg','imagenes/itsa3.jpg','imagenes/uvp.jpg','imagenes/sistem6.jpg','imagenes/buap.jpg','imagenes/ieu.jpg','imagenes/buasp.jpg','imagenes/itp4.jpg','imagenes/uvm2.jpg','imagenes/ueep.png','imagenes/descargaieu.jpg','imagenes/abogado3.jpg')">
+ 
+<div data-role="page" id="Pricipal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+    <h1> CARRERAS UNIVERSITARIAS </h1>
+   </div>
+   
+   
+   
+   <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Desarrollado por: </h1>
+   <div>
+   <p> 
+   <h2 align="center">Nombre:   </h2>
+   <h3 align="center">Evelyn Gutierrez Aguilar</h3>
+   <div align="center">
+   </div>
+   <h2 align="center">Grado y Grupo:   </h2>
+   <h3 align="center">4 "G"</h3>
+   <div align="center">
+   </div>
+   <h2 align="center">Especialidad:   </h2>
+   <h3 align="center">Programacion</h3>
+   <div align="center">
+   </div>
+   <h2 align="center">Submodulo:   </h2>
+   <h3 align="center">Desarrolla Aplicaciones Moviles</h3>
+   <div align="center">
+   </div>
+   <h2 align="center">Docente:   </h2>
+   <h3 align="center">Lic. Jose Antonio Gomez Hernandez</h3>
+   <p>&nbsp;</p>
+   </div>
+   <div>
+     <div align="center"><img src="imagenes/dgt.jpg" width="167" height="150"></div>
+   </div>
+   </div>
+   </div>
+   
+  <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Ingeniería en Sistemas Computacionales</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Licenciatura en Contaduría Pública</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Licenciatura en Derecho </h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+     
+   </ul>
+  </div>
+   <div data-role="main" class="ui-content" align="center">
+
+ </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Guia de Estudios </h4>
+    <h4> Evelyn Gutierrez Aguilar  </h4>
+   </div>
+  </div>
+</div>
+ 
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>  Ingeniería en Sistemas Computacionales  </h1>
+  </div>
+   
+         
+   <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> Sistemas Computacionales</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Universidades</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   </ul>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/sistem.png" alt="sistem" title="sistem" id="wows1_0"/></li>
+		<li><img src="data1/images/sistem4.jpg" alt="sistem4" title="sistem4" id="wows1_1"/></li>
+		<li><img src="data1/images/sistem5.jpg" alt="sistem5" title="sistem5" id="wows1_2"/></li>
+		<li><img src="data1/images/sistem6.jpg" alt="sistem6" title="sistem6" id="wows1_3"/></li>
+		<li><img src="data1/images/sistem7.jpg" alt="sistem7" title="sistem7" id="wows1_4"/></li>
+		<li><img src="data1/images/sistem8.jpg" alt="sistem8" title="sistem8" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/sistemas.png" alt="jquery slideshow" title="SISTEMAS" id="wows1_6"/></a></li>
+		<li><img src="data1/images/images_2.jpg" alt="images (2)" title="images (2)" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="sistem"><span><img src="data1/tooltips/sistem.png" alt="sistem"/>1</span></a>
+		<a href="#" title="sistem4"><span><img src="data1/tooltips/sistem4.jpg" alt="sistem4"/>2</span></a>
+		<a href="#" title="sistem5"><span><img src="data1/tooltips/sistem5.jpg" alt="sistem5"/>3</span></a>
+		<a href="#" title="sistem6"><span><img src="data1/tooltips/sistem6.jpg" alt="sistem6"/>4</span></a>
+		<a href="#" title="sistem7"><span><img src="data1/tooltips/sistem7.jpg" alt="sistem7"/>5</span></a>
+		<a href="#" title="sistem8"><span><img src="data1/tooltips/sistem8.jpg" alt="sistem8"/>6</span></a>
+		<a href="#" title="SISTEMAS"><span><img src="data1/tooltips/sistemas.png" alt="SISTEMAS"/>7</span></a>
+		<a href="#" title="images (2)"><span><img src="data1/tooltips/images_2.jpg" alt="images (2)"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    
+    
+   
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <h4> Guia de Carreras</h4>
+   </div>
+</div>
+ </div>
+ 
+   
+ 
+ 
+
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Licenciatura en Contaduría Pública</h1>
+  </div>
+  
+   <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Contaduria Publica</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Universidades</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   </ul>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container4">
+<div class="ws_images"><ul>
+		<li><img src="data4/images/calculator.jpg" alt="calculator" title="calculator" id="wows4_0"/></li>
+		<li><img src="data4/images/cont.jpg" alt="cont" title="cont" id="wows4_1"/></li>
+		<li><img src="data4/images/conta.jpg" alt="conta" title="conta" id="wows4_2"/></li>
+		<li><img src="data4/images/contabilidad.jpg" alt="contabilidad" title="contabilidad" id="wows4_3"/></li>
+		<li><img src="data4/images/contaduria.png" alt="contaduria" title="contaduria" id="wows4_4"/></li>
+		<li><img src="data4/images/contaduriaa.jpg" alt="Contaduriaa" title="Contaduriaa" id="wows4_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data4/images/contaoress.jpg" alt="wow slider" title="contaoress" id="wows4_6"/></a></li>
+		<li><img src="data4/images/liconta.jpg" alt="liconta" title="liconta" id="wows4_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="calculator"><span><img src="data4/tooltips/calculator.jpg" alt="calculator"/>1</span></a>
+		<a href="#" title="cont"><span><img src="data4/tooltips/cont.jpg" alt="cont"/>2</span></a>
+		<a href="#" title="conta"><span><img src="data4/tooltips/conta.jpg" alt="conta"/>3</span></a>
+		<a href="#" title="contabilidad"><span><img src="data4/tooltips/contabilidad.jpg" alt="contabilidad"/>4</span></a>
+		<a href="#" title="contaduria"><span><img src="data4/tooltips/contaduria.png" alt="contaduria"/>5</span></a>
+		<a href="#" title="Contaduriaa"><span><img src="data4/tooltips/contaduriaa.jpg" alt="Contaduriaa"/>6</span></a>
+		<a href="#" title="contaoress"><span><img src="data4/tooltips/contaoress.jpg" alt="contaoress"/>7</span></a>
+		<a href="#" title="liconta"><span><img src="data4/tooltips/liconta.jpg" alt="liconta"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine4/wowslider.js"></script>
+<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <h4> Guia de Carreras</h4>
+   </div>
+</div>
+ </div>
+ 
+ 
+ 
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Licenciatura en Derecho</h1>
+  </div>
+  
+   <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Derecho</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Universidades</h2>
+     <p> Muestra el Contenido: </p>
+    </a>
+   </li>
+   </ul>
+</div>
+
+<br>
+<br>
+<br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.ehowenespanol.com/cuales-son-ventajas-abogado-info_447540/" data-role="button" >
+    <h5>Ventajas</h5>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+	<a href="https://sites.google.com/site/misitiowebkmpp/home/9-desventajas-de-ser-un-abogado" data-role="button">
+    <h5>Desventajas</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+  </div>
+    
+    
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <h4> Guia de Carreras</h4>
+   </div>
+</div>
+ </div>
+ 
+    
+    
+    
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1 align="center">Sistemas Computacionales</h1>
+  </div>
+  <br>
+  <br>
+   <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Imagen </h1>
+            
+           <div align="center">
+           <img src="imagenes/ingionformatica.jpg" width="265" height="190"> </div>
+         
+  </div>
+  
+<h1 align="center">Ingeniero en Informatica</h1>
+  <p>Ingeniería en Sistemas Computacionales es una de las carreras con mayor empleabilidad tanto a nivel nacional, como internacional.En el mundo laboral, las carreras de ingeniería son muy valoradas por su aporte al desarrollo de las sociedad y las capacidades resolutivas que adquieren los profesionales de este sector. Si bien existen diferentes ingenierías dedicadas a ámbitos específicos, la Ingeniería en Sistemas Computacionales es una de las más populares, porque permite analizar y optimizar todo tipo de sistemas tecnológicos e informáticos, tan necesarios en el mundo actual. </p>
+  <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imaa','','imagenes/sistem6.jpg',1)"><img src="imagenes/sistem8.jpg" width="279" height="181" id="Imaa"></a></p>
+  
+  <div align="center"></div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4> Guia de Carreras</h4>
+ </div>
+</div>
+
+   
+   
+       
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Sistemas Computacionales</h1>
+  </div>
+  <div data-role="main" class="ui-content" align="center">
+  <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Universidades en Atlixco que ofrecen esa carrera...</h1>
+            
+  
+  <h1 align="center">Instituto Tecnologico de Atlixco</h1>
+  <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image56','','imagenes/itsa3.jpg',1)"><img src="imagenes/itsa.jpg" width="300" height="280" id="Image56"></a></p>
+  <div align="center"></div>
+    
+    
+<div style="width:60%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="https://www.itsa.edu.mx/277-2/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <br>
+    <br>
+    
+      <h1 align="center">Universidad E. De Estudios Profesionales De Atlixco</h1>
+      <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Ima','','imagenes/ueep.png',1)"><img src="imagenes/ueep2.jpg" width="322" height="265" id="Ima"></a></p>
+ <div align="center">
+   <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.ueep.edu.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+  </div>
+ 
+ </div>
+ </div>
+
+    <br>
+    <br>
+    <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Universidades en Puebla que ofrecen esa carrera...</h1>
+            
+  
+  <h1 align="center">Universidad del Valle de Puebla</h1>
+  <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagt','','imagenes/uvp.jpg',1)"><img src="imagenes/uvpp.jpg" width="312" height="207" id="Imagt"></a></p>
+  <div align="center"></div>
+    
+    
+<div style="width:60%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="https://www.uvp.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <br>
+    <br>
+    
+      <h1 align="center">Universidad E. De Estudios Profesionales De Atlixco</h1>
+      <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagg','','imagenes/uniddd.png',1)"><img src="imagenes/unid.jpg" width="180" height="210" id="Imagg"></a></p>
+ <div align="center">
+   <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://ieu.edu.mx/contacto?gclid=CLyBpa7tpNQCFY-MaQodOO0Jqw" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+  </div>
+    
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4> Guia de Carreras</h4>
+ </div>
+</div>
+ 
+   
+          
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Contaduría Pública</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <br>
+  <br>
+   <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Imagen </h1>
+            
+           <div align="center">
+           <img src="imagenes/calculator.jpg" width="300" height="200"> </div>
+         
+  </div>
+  
+  <h1 align="center">Contador Publico</h1>
+  <p>El contador público es el profesional dedicado a aplicar, manejar e interpretar la contabilidad de una organización o persona, con la finalidad de producir informes para la gerencia y para terceros (tanto de manera independiente como dependiente), que sirvan para la toma de decisiones. Lleva los libros o registros de contabilidad de una empresa, registrando los movimientos monetarios de bienes y derechos. En muchos casos los terceros exigen que dichos informes estén confeccionados o respaldados por un profesional contable. Su trabajo es registrar conforme a la normativa aplicable los movimientos u operaciones económicos que hace la compañía, de forma que se puedan publicar esos resultados con vistas a informar a accionistas, inversores, proveedores y demás personas interesadas (como trabajadores, entidades públicas, entidades financieras, etc. Esta tarea tradicionalmente se ha hecho a mano o con máquinas de calcular, pero actualmente se cuenta con numerosos sistemas informáticos que facilitan la gestión.
+
+El contador público también se ocupa de la liquidación de impuestos y de la revisión de informes financieros elaborados por otros colegas, tarea conocida como «auditoría de estados contables». También suele realizar otros tipos de auditorías así como tareas periciales, liquidación de siniestros para compañías aseguradoras y cálculos actuariales. En muchos países, principalmente de origen latino, el contador público está facultado para dar fe pública respecto de los hechos conocidos por él y propios del ámbito de su profesión.
+
+Dada la complejidad de los sistemas tributarios de muchos países, la actividad del contador se ha vuelto relevante, al ser éste el profesional que conoce sobre el cálculo de los impuestos y contribuciones al Estado. Por esta gestión, en México el contador tiene tal responsabilidad que incluso puede ser incluso de índole penal. </p>
+  <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagee','','imagenes/images (4).jpg',1)"><img src="imagenes/contaduria.png" width="282" height="162" id="Imagee"></a></p>
+  
+  
+  
+  <div align="center"></div>
+  </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+  <h4> Guia de Carreras</h4>
+ </div>
+</div>
+ 
+   
+   
+   
+          
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Universidades</h1>
+  </div>
+<div data-role="main" class="ui-content" align="center">
+  <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Universidades en Atlixco que ofrecen esa carrera...</h1>
+            
+  
+  <h1 align="center">BUAP</h1>
+  <h1 align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imageo','','imagenes/buap.jpg',1)"><img src="imagenes/baup3.jpg" width="315" height="245" id="Imageo"></a></h1>
+  <div align="center"></div>
+    
+    
+<div style="width:60%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.cursosycarreras.com.mx/licenciatura-en-contaduria-publica-puebla-atlixco-buap-FO-248493/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <br>
+    <br>
+    
+      <h1 align="center">Universidad E. De Estudios Profesionales De Atlixco</h1>
+      <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imaa','','imagenes/ieu.jpg',1)"><img src="imagenes/descargaieu.jpg" width="275" height="183" id="imaa"></a></p>
+ <div align="center">
+   <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.ueep.edu.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+  </div>
+ 
+ </div>
+ </div>
+
+    <br>
+    <br>
+    <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Universidades en Puebla que ofrecen esa carrera...</h1>
+            
+  
+  <h1 align="center">Universidad del Valle de Puebla</h1>
+  <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imageg','','imagenes/uvp.jpg',1)"><img src="imagenes/uvpp.jpg" width="279" height="183" id="Imageg"></a></p>
+  <div align="center"></div>
+    
+    
+<div style="width:60%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="https://www.uvp.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <br>
+    <br>
+    
+      <h1 align="center">Universidad IEU</h1>
+      <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/descargaieu.jpg',1)"><img src="imagenes/ieu.jpg" width="276" height="224" id="Image46"></a></p>
+ <div align="center">
+   <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://ieu.edu.mx/contacto?gclid=CLyBpa7tpNQCFY-MaQodOO0Jqw" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+  </div>
+    
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4> Guia de Carreras</h4>
+ </div>
+</div>
+ 
+   
+   
+   
+          
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Licenciatura en Derecho</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <br>
+  <br>
+   <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Imagen </h1>
+             <p align="center"><img src="imagenes/derecho.jpg" width="322" height="136" alt="e"></p>
+            
+           <div align="center"></div>
+         
+  </div>
+  
+         
+    <h1 align="center">Licenciado en Derecho </h1>
+  <p>El abogado es un profesional independiente que le asiste como asesor y representante en la defensa de sus derechos e intereses frente a los organismos públicos y el resto de las personas y entidades privadas.
+     Hoy en día se halla ampliamente superada la visión del abogado como un profesional que interviene únicamente en los juicios, y el ciudadano sabe que el contar con el asesoramiento previo de un abogado en la fase de la negociación de un contrato, en la formulación de una reclamación, en la mediación para resolver un conflicto, o en la preparación de un testamento o unas capitulaciones matrimoniales, por poner un ejemplo, sirve en multitud de ocasiones para evitar los gastos e inconvenientes de un juicio y resolver la cuestión que le preocupa de una forma satisfactoria.
+    </p>
+     
+  <div align="center">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imageb','','imagenes/derecho.jpg',1)"><img src="imagenes/congreso.jpg" width="262" height="208" id="Imageb"></a> </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4> Guia de Carreras</h4>
+ </div>
+</div>
+ 
+   
+   
+          
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Licenciatura en 	Derecho </h1>
+  </div>
+  
+  <div data-role="main" class="ui-content" align="center">
+   <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Universidades en Atlixco que ofrecen esa carrera...</h1>
+            
+           <div align="center">
+          
+  <h1 align="center">Universidad UNID</h1>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagb','','imagenes/uniddd.png',1)"><img src="imagenes/unid.jpg" width="180" height="210" id="Imagb"></a></p>
+  <div style="width:60%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.unid.edu.mx/atlixco.html" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+</div>
+    <br>
+    <br>
+     <h1 align="center">Universidad E. De Estudios Profesionales De Atlixco</h1>
+     <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagemv','','imagenes/ueep2.jpg',1)"><img src="imagenes/ueep.png" width="272" height="201" id="Imagemv"></a></p>
+ <div align="center">
+   <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.ueep.edu.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+  </div>
+  </div>
+    
+    <br>
+    <br>
+     <h1 align="center">Universidad CUVA</h1>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Immma','','imagenes/abogado3.jpg',1)"><img src="imagenes/agelopolis.jpg" width="297" height="229" id="Immma"></a></p>
+     <div style="width:60%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.angelopoliscuva.com/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+</div>
+ 
+ </div>
+ <br>
+ <br>
+   <div data-role="collapsible" data-content-theme="false">
+       
+             <h1>Universidades en Puebla y Mexico</h1>
+            
+           <div align="center">       
+  <h1 align="center">Universidad UVM</h1>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imae','','imagenes/uvm2.jpg',1)"><img src="imagenes/uvm.jpg" width="280" height="260" id="Imae"></a></p>
+  <div style="width:60%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="https://www.universidaduvm.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+</div>
+    <br>
+    <br>
+     <h1 align="center">Instituto Tecnologico de Puebla</h1>
+ <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imago','','imagenes/itp4.jpg',1)"><img src="imagenes/itp3.jpg" width="292" height="207" id="Imago"></a>
+<p>&nbsp;</p>
+   <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://www.itp.edu.mx/" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+  </div>
+  </div>
+    </div>
+    <br>
+    <br>
+     <h1 align="center">BUAP</h1>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/buasp.jpg',1)"><img src="imagenes/imagesbuap.png" width="323" height="156" id="Image9"></a></p>
+     <div style="width:60%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+	<a href="http://carrerasenpuebla.blogspot.mx/2012/03/buap.html" data-role="button" >
+    <h5>Mas Informacion Aqui..</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+
+</div>
+</div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4> Guia de Carreras</h4>
+ </div>
+</div>
+ 
+ 
+   
+  
+</body>
+</html>
